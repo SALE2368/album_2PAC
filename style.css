@@ -1,0 +1,75 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.72)),
+        url("web.avif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #171717;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+header a {
+    display: block;
+    padding: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.albums {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    overflow-x: auto;
+}
+
+.albums article {
+    flex: 0 0 300px;
+    text-align: center;
+}
+
+.albums img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+/* Faire un lien avec la mention légale et la politique de confidentialité dans le */
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
